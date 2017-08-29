@@ -53,7 +53,7 @@ services:
   cadvisor:
     image: google/cadvisor:latest
     ports:
-      - 9090/8080
+      - 9090:8080
     volumes:
       - "/:/rootfs:ro"
       - "/var/run:/var/run"
