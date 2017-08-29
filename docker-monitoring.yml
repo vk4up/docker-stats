@@ -1,5 +1,6 @@
 version: "3"
 services:
+
   wordpress:
     image: wordpress
     depends_on:
@@ -60,4 +61,4 @@ services:
       - "/var/lib/docker/:/var/lib/docker"
 
 networks:
-  frontend:      
+  frontend:
